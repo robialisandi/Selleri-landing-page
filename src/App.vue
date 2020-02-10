@@ -11,7 +11,6 @@
     <Feedback/>
     <Cta/>
     <OurTeam/>
-    <Contact/>
     <Footer/>
   </div>
 </template>
@@ -31,8 +30,11 @@ import Pricing from './components/Pricing'
 import Feedback from './components/Feedback'
 import Cta from './components/CTA'
 import OurTeam from './components/OurTeam'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import Footer from './components/Footer'
+
+/* eslint-disable no-useless-escape */
+import postscribe from 'postscribe'
 
 export default {
   name: 'App',
@@ -48,8 +50,17 @@ export default {
     Feedback,
     Cta,
     OurTeam,
-    Contact,
+    // Contact,
     Footer
+  },
+  mounted() {
+    postscribe('#app', `<script src="js/jquery-2.2.4.min.js"><\/script>`)
+    postscribe('#app', `<script src="js/popper.min.js"><\/script>`)
+    postscribe('#app', `<script src="js/bootstrap.min.js"><\/script>`)
+    postscribe('#app', `<script src="js/plugins.js"><\/script>`)
+    postscribe('#app', `<script src="js/slick.min.js"><\/script>`)
+    postscribe('#app', `<script src="js/footer-reveal.min.js"><\/script>`)
+    postscribe('#app', `<script src="js/active.js"><\/script>`)
   }
 }
 </script>
@@ -59,7 +70,7 @@ export default {
 @import url('./assets/css/bootstrap.min.css');
 @import url('./assets/css/animate.css');
 @import url('./assets/css/magnific-popup.css');
-/* @import url('./assets/css/owl.carousel.min.css'); */
+@import url('./assets/css/owl.carousel.min.css');
 @import url('./assets/css/slick.css');
 @import url('./assets/css/font-awesome.min.css');
 @import url('./assets/css/themify-icons.css');
