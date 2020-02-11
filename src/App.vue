@@ -1,10 +1,10 @@
 <template>
   <div id="app">
+    <Loader/>
     <Header/>
     <Welcome/>
     <Special/>
     <Features/>
-    <Video/>
     <CoolFacts/>
     <ScreenShoot/>
     <Pricing/>
@@ -19,11 +19,11 @@
 window.$ = require('jquery')
 window.jQuery = require('jquery')
 
+import Loader from './components/Loader'
 import Header from './components/Header'
 import Welcome from './components/Welcome'
 import Special from './components/Special'
 import Features from './components/Features'
-import Video from './components/Video'
 import CoolFacts from './components/CoolFacts'
 import ScreenShoot from './components/ScreenShoot'
 import Pricing from './components/Pricing'
@@ -39,11 +39,11 @@ import postscribe from 'postscribe'
 export default {
   name: 'App',
   components: {
+    Loader,
     Header,
     Welcome,
     Special,
     Features,
-    Video,
     CoolFacts,
     ScreenShoot,
     Pricing,

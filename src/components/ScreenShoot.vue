@@ -5,7 +5,7 @@
         <div class="col-12 text-center">
           <!-- Heading Text  -->
           <div class="section-heading">
-            <h2>App Screenshots</h2>
+            <h2>Mobile App Screenshots</h2>
             <div class="line-shape"></div>
           </div>
         </div>

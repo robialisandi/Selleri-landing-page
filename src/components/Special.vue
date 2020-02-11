@@ -19,7 +19,7 @@
               <i class="ti-mobile" aria-hidden="true"></i>
             </div>
             <h4>Easy to use</h4>
-            <p>Kami membangun tool yang sangat kompleks dan ini memungkinkan kami untuk mengambil desain dan mengubahnya menjadi fungsional dengan cepat dan mudah</p>
+            <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
           </div>
         </div>
         <!-- Single Special Area -->
@@ -29,7 +29,7 @@
               <i class="ti-ruler-pencil" aria-hidden="true"></i>
             </div>
             <h4>Powerful Design</h4>
-            <p>Kami membangun tool yang sangat kompleks dan ini memungkinkan kami untuk mengambil desain dan mengubahnya menjadi fungsional dengan cepat dan mudah</p>
+            <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
           </div>
         </div>
         <!-- Single Special Area -->
@@ -60,16 +60,16 @@
               <div class="app-download-area">
                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                   <!-- Google Store Btn -->
-                  <a href="#">
+                  <a href="https://play.google.com/store/apps/details?id=com.dgti.selleri" target="_blank">
                     <i class="fa fa-android"></i>
                     <p class="mb-0"><span>available on</span> Google Store</p>
                   </a>
                 </div>
                 <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
                   <!-- Apple Store Btn -->
-                  <a href="#">
+                  <a>
                     <i class="fa fa-apple"></i>
-                    <p class="mb-0"><span>available on</span> Apple Store</p>
+                    <p class="mb-0"><span>coming soon on</span> Apple Store</p>
                   </a>
                 </div>
               </div>

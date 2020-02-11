@@ -11,7 +11,7 @@
           <div class="get-start-area">
             <!-- Form Start -->
             <form action="#" method="post" class="form-inline">
-              <input type="email" class="form-control email" placeholder="name@company.com">
+              <input type="email" class="form-control email" placeholder="name@company.com" style="color:#ffffff">
               <input type="submit" class="submit" value="Get Started">
             </form>
             <!-- Form End -->

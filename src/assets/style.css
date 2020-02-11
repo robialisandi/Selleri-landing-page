@@ -458,7 +458,7 @@ p {
 }
 
 .get-start-area .email {
-    background: #ffffff;
+    background: #40a77f;
     height: 50px;
     max-width: 260px;
     border: none;
@@ -575,8 +575,8 @@ p {
 }
 
 .single-special:hover {
-    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
-            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0 10px 90px rgba(0, 0, 0, 0.20);
+            box-shadow: 0 10px 90px rgba(0, 0, 0, 0.20);
 }
 
 .single-special p {
@@ -747,8 +747,9 @@ p {
     background: -webkit-gradient(linear, right top, left top, from(#43b496), to(#54b764));
     background: -o-linear-gradient(right, #43b496, #54b764);
     background: linear-gradient(to left, #43b496, #54b764);
-    padding: 180px 0 80px 0;
+    padding: 80px 0 80px 0;
     top: -100px;
+    margin-top: 100px;
 }
 
 
