@@ -2,15 +2,7 @@
   <div id="app">
     <Loader/>
     <Header/>
-    <Welcome/>
-    <Special/>
-    <Features/>
-    <CoolFacts/>
-    <ScreenShoot/>
-    <Pricing/>
-    <Feedback/>
-    <Cta/>
-    <OurTeam/>
+      <Home/>
     <Footer/>
   </div>
 </template>
@@ -21,17 +13,9 @@ window.jQuery = require('jquery')
 
 import Loader from './components/Loader'
 import Header from './components/Header'
-import Welcome from './components/Welcome'
-import Special from './components/Special'
-import Features from './components/Features'
-import CoolFacts from './components/CoolFacts'
-import ScreenShoot from './components/ScreenShoot'
-import Pricing from './components/Pricing'
-import Feedback from './components/Feedback'
-import Cta from './components/CTA'
-import OurTeam from './components/OurTeam'
-// import Contact from './components/Contact'
 import Footer from './components/Footer'
+
+import Home from './pages/Home'
 
 /* eslint-disable no-useless-escape */
 import postscribe from 'postscribe'
@@ -41,17 +25,8 @@ export default {
   components: {
     Loader,
     Header,
-    Welcome,
-    Special,
-    Features,
-    CoolFacts,
-    ScreenShoot,
-    Pricing,
-    Feedback,
-    Cta,
-    OurTeam,
-    // Contact,
-    Footer
+    Footer,
+    Home
   },
   mounted() {
     postscribe('#app', `<script src="js/jquery-2.2.4.min.js"><\/script>`)
